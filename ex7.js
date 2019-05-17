@@ -6,7 +6,7 @@
 
 // 1. Declare a variable with the value of "I can walk in the park all day!". Print the word "park" to the console.
 let str = "I can walk in the park all day!";
-console.log("1: " + str.indexOf("park"));
+console.log(str.indexOf("park"));
 console.log("1: " + str.substr(18, 4));
 
 // 2. Declare a variable with the value "JavaScript". Use string methods to print the the characters "aSc" from your declared variable.
@@ -34,7 +34,7 @@ console.log("6: " + hobby[0] + hobby + hobby[0]);
 
 // 7. Create a new string from a given string taking the last 3 characters of the string and add them to both the front and back of the new string. The string length must be 3 or more.
 // eg. of output: javascript => iptJavaScriptipt
-let ipt = hobby.substr(7, 3)
+let ipt = hobby.substr(7);
 console.log("7: " + ipt + hobby + ipt);
 
 // 8. Create a variable and assign a string value to it. Then, convert the value to upper case and print the converted value to the console and check whether it includes "Java".
